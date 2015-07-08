@@ -39,3 +39,27 @@
   .content
     = post.content
 ```
+
+
+* Haml uses whitespace and indenting to format the HTML.
+* Tags are prefixed with a %. Closing tags aren’t required.
+
+##HTML
+```
+<html> 
+  <head> 
+    <title>Our Awesome Haml Template</title> 
+  </head> 
+  <body> 
+    Abstracting HTML since 2006 </body> </html> 
+
+```
+
+##HAML
+```
+%html 
+  %head 
+    %title Our Awesome Haml Template 
+  %body 
+    Abstracting HTML since 2006
+```
