@@ -14,3 +14,28 @@
 * Markup should be DRY
 * Markup should be well-indented
 * HTML structure should be clear
+
+###Other fun facts:
+* Developed by Hampton Catlin (also the creator of Sass)
+* Second most popular templating language for RoR
+* Can also be used in Node.js, PHP, and .NET 
+
+##ERB
+```
+<section class=”container”>
+  <h1><%= post.title %></h1>
+  <h2><%= post.subtitle %></h2>
+  <div class=”content”>
+    <%= post.content %>
+  </div>
+</section>
+```
+
+##HAML
+```
+%section.container
+  %h1= post.title
+  %h2= post.subtitle
+  .content
+    = post.content
+```
