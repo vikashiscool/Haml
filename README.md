@@ -85,7 +85,6 @@
     %header
       %h1 This is where I live
     #main Rocking SF since 2014
-    %footer
-      %Copyright 2015
+    %footer Copyright 2015
 ```
 
