@@ -33,7 +33,7 @@
     Abstracting HTML since 2006 </body> </html> 
 ```
 
-* Haml uses whitespace and indenting to format the HTML.
+* Haml uses whitespace and indenting to format the HTML. A tag's children are indented beneath the parent tag.
 * Tags are prefixed with a %. Closing tags aren’t required.
 
 
@@ -103,3 +103,15 @@ Both yield the following HTML:
 ```
 <img src="/path/to/image" alt="Image description">
 ```
+
+Other attribute examples
+```
+%link {rel="stylesheet" href="/css/master.css"}
+```
+
+##Installing Haml with Rails
+'''
+gem 'haml'
+'''
+
+* If you need to replace Rails's Erb-based generators with haml, add `haml-rails` to your Gemfile as well.
