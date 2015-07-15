@@ -68,7 +68,7 @@
     = post.content
 ```
 
-##Classes (.)
+##Classes (.classname)
 ```
 %body
   .address
@@ -78,7 +78,7 @@
       .zip
 ```
 
-##IDs (#)
+##IDs (#idname)
 ```
 %body
   #container 
