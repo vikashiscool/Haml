@@ -115,3 +115,8 @@ gem 'haml'
 ```
 
 * If you need to replace Rails's Erb-based generators with haml, add `haml-rails` to your Gemfile as well.
+
+To insert Ruby code, just add the ``=`` sign followed by the code:
+```
+%p = Person.name
+```
