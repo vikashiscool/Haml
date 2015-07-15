@@ -88,6 +88,7 @@
     %footer Copyright 2015
 ```
 
+##Specifying attributes
 * You can use curly braces and specify your attributes with a Ruby hash. Holy crap!
 ```
 %img{ :src => "/path/to/image", :alt => "Image description" }
