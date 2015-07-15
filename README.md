@@ -88,3 +88,17 @@
     %footer Copyright 2015
 ```
 
+* You can use curly braces and specify your attributes with a Ruby hash. Holy crap!
+```
+%img{ :src => "/path/to/image", :alt => "Image description" }
+```
+
+* OR you can use parentheses and use a more HTML approach (e.g. foo="bar")!
+```
+%img{ src="/path/to/image", alt="Image description" }
+```
+
+Both yield the following HTML:
+```
+<img src="/path/to/image" alt="Image description">
+```
