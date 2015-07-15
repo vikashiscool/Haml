@@ -110,8 +110,8 @@ Other attribute examples
 ```
 
 ##Installing Haml with Rails
-'''
+```
 gem 'haml'
-'''
+```
 
 * If you need to replace Rails's Erb-based generators with haml, add `haml-rails` to your Gemfile as well.
