@@ -120,3 +120,9 @@ To insert Ruby code, just add the `'='` sign followed by the code:
 ```
 %p = Person.name
 ```
+##More resources
+[http://haml.info/](http://haml.info/)
+[https://github.com/haml/haml](https://github.com/haml/haml)
+[http://www.cheatography.com/specialbrand/cheat-sheets/haml/pdf/](http://www.cheatography.com/specialbrand/cheat-sheets/haml/pdf/)
+[http://learn.shayhowe.com/advanced-html-css/preprocessors/](http://learn.shayhowe.com/advanced-html-css/preprocessors/)
+[http://www.sitepoint.com/an-introduction-to-haml/](http://www.sitepoint.com/an-introduction-to-haml/)
