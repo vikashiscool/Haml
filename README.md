@@ -27,7 +27,9 @@
     <title>Our Awesome Haml Template</title> 
   </head> 
   <body> 
-    Abstracting HTML since 2006 </body> </html> 
+    Abstracting HTML since 2006 
+  </body> 
+</html> 
 ```
 
 * Haml uses whitespace and indenting to format the HTML. A tag's children are indented beneath the parent tag.
