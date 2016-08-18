@@ -32,8 +32,8 @@
 </html> 
 ```
 
-* Haml uses whitespace and indenting to format the HTML. A tag's children are indented beneath the parent tag.
-* Tags are prefixed with a %. Closing tags aren’t required.
+* Haml uses whitespace and indenting to format the HTML. A tag's children are *indented* beneath the parent tag.
+* Tags are prefixed with a %. Closing tags *aren’t* required.
 
 
 ###HAML
